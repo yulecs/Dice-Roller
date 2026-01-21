@@ -49,7 +49,7 @@
         		return;
     		}
 
-    		interval *= 1.3;
+    		interval *= 1.2;
     		setTimeout(tick, interval);
 		}
 
@@ -60,7 +60,7 @@
 
 <html lang="en" class:flash={isFlashing}>
 	<main class:flash={isFlashing}>
-		<h1>Dice Roller</h1>>
+		<h1>Dice Roller</h1>
 		<h2>The total is: {left_dice + right_dice}</h2>
 	</main>
 
